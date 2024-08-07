@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/estilos.css">
+        <title>TOKE-POP</title>
+        <link rel="shortcut icon" href="image/logo_32px_contorno_fondo.png">
+    </head>
+    <body>
+        <h1>TOKE-POP</h1>
+
+        <div class="marcoPrincipal">
+            <div class="marcoDificultad">
+                <input type="button" value="FÁCIL" id="btnFacil" onclick="facil()">
+                <input type="button" value="NORMAL" id="btnNormal" onclick="normal()">
+                <input type="button" value="DIFICIL" id="btnDificil" onclick="dificil()">
+                <h2 id="dificultad"></h2>
+            </div>
+            
+            <div class="bordes">
+                <div class="puntuacion">
+                    Mejor tiempo:&nbsp;
+                    <span id="mejorTiempo"></span>
+                    <span id="mejorTiempoNormal"></span>
+                    <span id="mejorTiempoDificil"></span>
+                    <br><br>
+                    <span id="puntos"></span>
+                    <span id="ned"></span>
+                    <span id="tiempo"></span>
+                </div>
+
+                <div class="contenedor">
+                    <div id="ficha"></div>
+                </div>
+            </div>
+
+            <br>
+
+            <center>
+                <input type="button" value="INICIAR JUEGO" id="btnJugar" onclick="iniciarJuego()">
+                <input type="button" value="RESETEAR" id="btnResetear" disabled onclick="resetearJuego()">
+            </center>
+        </div>
+
+        <div class="links" align="right">
+            <a href="index.html">VOLVER</a>
+        </div>
+        
+        <script src="js/codigo.js"></script>
+    </body>
+</html>
+

@@ -1,0 +1,120 @@
+body {
+    background-color: black;
+    background-image: url("../image/fondo2.png");
+    margin: 100px 18%;
+    background-repeat: no-repeat;
+    Background-attachment: fixed;
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: white;
+    text-indent: 20px; 
+}
+
+.marcoPrincipal {
+    padding: 40px;
+    margin: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+}
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+    margin: 60px 0px;
+}
+
+h3 {
+    font-size: 32px;
+}
+
+.links {
+    padding: 20px;
+    margin: 20px;
+}
+
+a {
+    color: white;
+    font-weight: bold;
+
+    padding: 10px 20px;
+    margin-left: 20px;
+    
+    border-radius: 10px;
+    background-color: rgba(30, 30, 205, 0.5);;
+    border: 3px solid white;
+
+    text-decoration:none;
+}
+
+a:hover {
+    color: rgba(30, 30, 205);
+    font-weight: bold;
+
+    background-color: white;
+    border: 3px solid rgba(30, 30, 205);
+}
+
+.bordes {
+    margin: auto;
+    margin-top: 50px;
+    border: 2px solid white;
+    border-radius: 8px;
+    width: 500px;
+    height: 636px;
+}
+
+.contenedor {
+    padding: 0px;
+    width: 500px;
+    height: 500px;
+    border-top: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.puntuacion {
+    background-color: rgba(30, 30, 205, 0.5);
+    height: 86px;
+    width: 452px;
+    color: white;
+    font-size: 24px;
+    padding: 24px 24px;
+    text-align: center;
+}
+
+#ficha {
+    cursor: pointer;
+    display: none;
+    background-color: rgba(205, 30, 30, 0.5);
+    border: 2px solid rgb(255, 255, 255);
+
+    border-radius: 64px;
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    transition: all 0.15s;
+    /* margin: 200px 218px; */
+}
+
+input {
+    padding: 8px;
+    border-radius: 8px;
+    border-style: double;
+    border-color: gray;
+    margin: 5px;
+}
+
+.marcoDificultad {
+    padding: 24px;
+    margin: 32px auto;
+    width: 452px;
+    border: 2px solid white;
+    border-radius: 8px;
+    text-align: center;
+
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+}
