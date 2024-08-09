@@ -1,4 +1,4 @@
-# Videojuego - Toke Pop
+# Videojuego Toke-Pop
 
 Este proyecto fue desarrollado para la materia **Diseño y Gestión de Internet** de la carrera *Programador Universitario de Sistemas* en la *Universidad Nacional de Villa Mercedes*.
 
